@@ -37,3 +37,13 @@ Follow these steps to run BingeBox locally:
 ```bash
 git clone https://github.com/Priyansee/bingebox.git
 cd bingebox
+
+# 2. Install dependencies
+npm install
+
+# 3. Set up environment variables
+# Create a `.env` file in the root and add:
+REACT_APP_TMDB_API_KEY=your_tmdb_api_key
+
+# 4. Run the development server
+npm start
